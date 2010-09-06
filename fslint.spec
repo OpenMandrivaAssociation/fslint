@@ -2,7 +2,7 @@ Name:           fslint
 Version:        2.16
 Release:	%mkrel 1
 Summary:        FSlint - a utility to find and clean "lint" on a filesystem
-Group:          Applications/File
+Group:          File tools 
 License:        GPLv2+
 URL:            http://www.pixelbeat.org/fslint/
 Source0:        http://www.pixelbeat.org/fslint/%{name}-%{version}.tar.gz
