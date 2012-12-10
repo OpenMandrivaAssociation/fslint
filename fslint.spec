@@ -74,3 +74,19 @@ rm -rf %buildroot
 %{_datadir}/applications/*%{name}.desktop
 %{_datadir}/pixmaps/fslint_icon.png
 
+
+
+%changelog
+* Tue Mar 15 2011 Stéphane Téletchéa <steletch@mandriva.org> 2.42-1mdv2011.0
++ Revision: 645174
+- update to new version 2.42
+
+* Mon Sep 06 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.16-2mdv2011.0
++ Revision: 576367
+- Fix summary
+
+* Mon Sep 06 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.16-1mdv2011.0
++ Revision: 576337
+- fix group
+- import fslint
+
