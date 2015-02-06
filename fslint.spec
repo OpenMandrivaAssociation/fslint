@@ -1,6 +1,6 @@
 Name:           fslint
 Version:        2.42
-Release:	%mkrel 1
+Release:	2
 Summary:       	An utility to find and clean "lint" on a filesystem
 Group:          File tools 
 License:        GPLv2+
