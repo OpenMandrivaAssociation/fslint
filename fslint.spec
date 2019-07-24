@@ -1,6 +1,6 @@
 Name:           fslint
-Version:        2.42
-Release:	2
+Version:        2.46
+Release:	1
 Summary:       	An utility to find and clean "lint" on a filesystem
 Group:          File tools 
 License:        GPLv2+
@@ -9,7 +9,7 @@ Source0:        http://www.pixelbeat.org/fslint/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:      noarch
 BuildRequires:  gettext, desktop-file-utils
-Requires:       python >= 0:2.0, pygtk2.0, pygtk2.0-libglade, cpio
+Requires:       python >= 2.4, pygtk2.0, pygtk2.0-libglade, cpio
 
 %description
 FSlint is a toolkit to find all redundant disk usage (duplicate files
