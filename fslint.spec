@@ -5,7 +5,7 @@ Summary:       	An utility to find and clean "lint" on a filesystem
 Group:          File tools 
 License:        GPLv2+
 URL:            http://www.pixelbeat.org/fslint/
-Source0:        http://www.pixelbeat.org/fslint/%{name}-%{version}.tar.gz
+Source0:        http://www.pixelbeat.org/fslint/%{name}-%{version}.tar.xz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:      noarch
 BuildRequires:  gettext, desktop-file-utils
