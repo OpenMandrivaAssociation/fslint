@@ -8,6 +8,7 @@ URL:            https://www.pixelbeat.org/fslint/
 Source0:        http://www.pixelbeat.org/fslint/%{name}-%{version}.tar.xz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:      noarch
+BuildRequires:	make
 BuildRequires:  gettext, desktop-file-utils
 BuildRequires:  perl-devel
 Requires:       python >= 2.4 
